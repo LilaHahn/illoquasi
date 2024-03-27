@@ -1,0 +1,32 @@
+{
+  "name": "illoquasi",
+  "version": "1.0.0",
+  "description": "Stringify and format a JSON object.",
+  "author": "VitoCremin",
+  "license": "MIT",
+  "keywords": [
+    "quod",
+    "iste",
+    "adipisci",
+    "magni",
+    "non",
+    "a"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LilaHahn/illoquasi.git"
+  },
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "prepublishOnly": "yarn build && yarn test",
+    "test": "yarn jest"
+  },
+  "dependencies": {
+    "@bconnorwhite/json-types": "^1.0.3"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^1.9.6",
+    "jest": "^26.4.2"
+  }
+}
